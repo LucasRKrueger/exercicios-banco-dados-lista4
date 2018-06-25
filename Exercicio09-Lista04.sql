@@ -1,0 +1,1 @@
+﻿SELECT COUNT(cor_preferida)'Pessoas com cor preferida Gelo' FROM alunos WHERE cor_preferida = 'Gelo'
