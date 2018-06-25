@@ -1,0 +1,1 @@
+﻿SELECT nome,nota_1,nota_2,nota_3,nota_4,(nota_1 + nota_2 + nota_3 + nota_4)/4' Maior Média' FROM alunos WHERE (nota_1 + nota_2 + nota_3 + nota_4)/4 = (SELECT MAX((nota_1 + nota_2 + nota_3 + nota_4)/4)'maior media' FROM alunos);
