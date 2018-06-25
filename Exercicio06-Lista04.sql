@@ -1,0 +1,1 @@
+﻿SELECT AVG(nota_2)'Média da Segunda Nota' FROM alunos;
