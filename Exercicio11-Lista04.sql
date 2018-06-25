@@ -1,0 +1,1 @@
+﻿SELECT COUNT(nome)'Quantidade alunos que contém "Luc" no nome' FROM alunos WHERE nome LIKE '%Luc%'
