@@ -1,0 +1,1 @@
+﻿SELECT COUNT(signo)'Quantidade Signo Peixes' FROM alunos WHERE signo = 'Peixes'
