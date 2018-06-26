@@ -1,0 +1,1 @@
+﻿SELECT nick, MONTH(data_nascimento)'Data de nascimento'  FROM alunos WHERE MONTH(data_nascimento) <= 3 --Não existe mês maior que 6
