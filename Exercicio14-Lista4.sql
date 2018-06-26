@@ -1,0 +1,2 @@
+﻿SELECT nome, nota_1, nota_2, nota_3, nota_4, ((nota_1 + nota_2 + nota_3 + nota_4) / 4) AS 'Média', 
+IIF(((nota_1 + nota_2 + nota_3 + nota_4) / 4) < 5, 'Reprovado', IIF(((nota_1 + nota_2 + nota_3 + nota_4) / 4) < 7, 'Exame', 'Aprovado')) AS 'Situação' FROM alunos;
