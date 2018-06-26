@@ -1,0 +1,1 @@
+﻿SELECT COUNT(YEAR(data_nascimento))'Quantidade de pessoas que nasceram em determinada data' FROM alunos WHERE DAY(data_nascimento) = 2 AND MONTH(data_nascimento) = 2 AND (YEAR(data_nascimento) = 1964 OR YEAR(data_nascimento) = 1994)
