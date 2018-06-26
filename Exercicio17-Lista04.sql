@@ -1,0 +1,1 @@
+﻿SELECT nome'Nome', nick'Nick' FROM alunos WHERE LEN(nick) = 5
