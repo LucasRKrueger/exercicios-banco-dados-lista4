@@ -1,0 +1,1 @@
+﻿SELECT AVG((nota_1 + nota_2 + nota_3 + nota_4)/4)'Média das médias' FROM alunos
